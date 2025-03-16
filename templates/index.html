@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+{%block title%} Main page {%endblock%}
+{%block content%}
+
+    <h1>filters</h1>
+    {{note|upper}}
+<br>    {{note|lower}}
+<br>    {{note|title}}
+<br>    {{note|reverse_string}}
+<br>    {{note|repeat}}
+
+<a href="{{url_for('about')}}">Click</a>
+
+{%endblock%}
