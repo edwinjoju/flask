@@ -50,4 +50,7 @@ A flask learning github repository
         }
     ) : used to download file and convert it to csv format
 
+##static files
+css, javascript, images, videos are added to a directory called static
+
 
